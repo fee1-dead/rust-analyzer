@@ -1025,9 +1025,6 @@ fn classify_name_ref<'db>(
                                             sema.source(trait_)?.value.generic_param_list()
                                         }
                                     }
-                                    hir::ModuleDef::TraitAlias(trait_) => {
-                                        sema.source(trait_)?.value.generic_param_list()
-                                    }
                                     hir::ModuleDef::TypeAlias(ty_) => {
                                         sema.source(ty_)?.value.generic_param_list()
                                     }

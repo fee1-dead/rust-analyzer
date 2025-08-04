@@ -579,7 +579,6 @@ impl Module {
                     | Definition::Const(_)
                     | Definition::Static(_)
                     | Definition::Trait(_)
-                    | Definition::TraitAlias(_)
                     | Definition::TypeAlias(_)
             );
 
